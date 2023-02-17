@@ -62,7 +62,7 @@ jobs:
          run: |
               cd work
               . build/envsetup.sh &&lunch twrp_$DEVICE-eng && export ALLOW_MISSING_DEPENDENCIES=true && mka $TARGET
-             
+              cp  out/target/product/T482L/recovery.img    out/target/product/T482L/recovery-T482L-$(date +"%Y%m%d-%H%M").img
        - name: Release recovery image
          uses: softprops/action-gh-release@v1
          env:
