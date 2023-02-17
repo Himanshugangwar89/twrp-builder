@@ -31,7 +31,7 @@ env:
 
   DEVICE: T482L
 
-  DT_LINK: https://github.com/perilouspike/android_device_acer_T482L.git
+  DT_LINK: https://github.com/thegangbanger77/android_device_acer_T482L.git
 
   DT_PATH: device/acer/T482L
 
