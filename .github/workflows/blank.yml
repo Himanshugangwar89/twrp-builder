@@ -68,7 +68,7 @@ jobs:
          env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
          with:
-          tag_name: TWRP-0.1
+          tag_name: TWRP-0.2
           name: TWRP-AcerOne8T482L
            files:|
              work/out/target/product/T482L/recovery.img
